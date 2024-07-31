@@ -1,16 +1,14 @@
-﻿using OnionArchitecture.Domain.Common;
-using OnionArchitecture.Domain.ValueObjects;
+﻿using OnionArchitecture.Domain.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnionArchitecture.Domain.Entities
+namespace OnionArchitecture.Application.DTOs
 {
-    public class Event : EntityBase
+    public class EventDTO
     {
-       
         public string Title { get; set; }
 
         public DateTimeOffset Date { get; set; }
